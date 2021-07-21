@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Card from '../UI/Card/Card';
 import FormControl from '../UI/FormControl/FormControl';
 import Button from '../UI/Button/Button';
-import Modal from '../UI/Modal/Modal';
+import ErrorModal from '../UI/Modal/ErrorModal';
 
 import styles from './AddUser.module.css';
 
@@ -66,7 +66,7 @@ const AddUser = props => {
 
     return (
         <>
-            {error && <Modal
+            {error && <ErrorModal
                     title={error.title}
                     message={error.message}
                     onClick={errorResetHandler}

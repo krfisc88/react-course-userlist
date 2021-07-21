@@ -1,0 +1,17 @@
+.form-control {
+    margin-bottom: 1em;
+}
+
+.form-control input {
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.3em;
+    padding-left: 0.7em;
+}
+
+.form-control label {
+    font-size: 1.2rem;
+}

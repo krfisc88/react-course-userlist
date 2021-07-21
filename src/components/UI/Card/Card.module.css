@@ -1,0 +1,9 @@
+.card {
+    max-width: 40rem;
+    margin: 1rem auto 3rem;
+    width: 80%;
+    box-shadow: 7px 7px 25px rgba(0,0,0,0.2);
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: #fff;
+}

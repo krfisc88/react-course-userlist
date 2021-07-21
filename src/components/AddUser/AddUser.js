@@ -65,7 +65,7 @@ const AddUser = props => {
     };
 
     return (
-        <div>
+        <>
             {error && <Modal
                     title={error.title}
                     message={error.message}
@@ -100,7 +100,7 @@ const AddUser = props => {
                     </div>
                 </form>
             </Card>
-        </div>
+        </>
     );
 }
 

@@ -32,10 +32,10 @@ const App = () => {
     }
 
     return (
-        <div className="app">
+        <>
             <AddUser onAddUser={handleAddUser} />
             <UserList users={users}/>
-        </div>
+        </>
     );
 }
 

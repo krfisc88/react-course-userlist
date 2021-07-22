@@ -16,7 +16,7 @@ const Modal = props => {
                     <p>{props.message}</p>
                 </div>
                 <footer className={styles.actions}>
-                    <Button className={styles.button} onClick={props.onClick}>Close</Button>
+                    <Button id="modal-btn" className={styles.button} onClick={props.onClick}>Close</Button>
                 </footer>
             </Card>
         </div>
@@ -24,6 +24,7 @@ const Modal = props => {
 };
 
 const ErrorModal = props => {
+
     return (
         ReactDOM.createPortal(
             <Modal

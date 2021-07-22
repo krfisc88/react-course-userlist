@@ -20,22 +20,24 @@
     border: 3px solid transparent;
 }
 
-.btn-submit:hover {
+.btn-submit:hover,
+.btn-submit:focus {
     background-color: transparent;
     border-color: #489FB5;
     color: #489FB5;
 }
 
 .btn-reset {
-    background-color: transparent;
-    color: #D58936;
-    border: 3px solid #D58936;
+    background-color: #E2AF76;
+    color: white;
+    border: 3px solid transparent;
     transition: all  0.5s;
 }
 
-.btn-reset:hover {
-    border-color: transparent;
-    background-color: #E2AF76;
-    color: white;
+.btn-reset:hover,
+.btn-reset:focus {
+    border-color: #D58936;
+    background-color: transparent;
+    color: #D58936;
 }
 
